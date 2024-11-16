@@ -1,0 +1,33 @@
+{
+  "typescript": true,
+  "metaFiles": [
+    ".env",
+    ".env.*",
+    "public/**",
+    "resources/**"
+  ],
+  "aliases": {
+    "App": "app",
+    "Config": "config",
+    "Database": "database",
+    "Contracts": "contracts"
+  },
+  "commands": [],
+  "providers": [
+    "@adonisjs/core",
+    "@adonisjs/lucid",
+    "@adonisjs/view"
+  ],
+  "aceProviders": [],
+  "testProviders": [],
+  "preloads": [
+    "./start/routes"
+  ],
+  "directories": {
+    "public": "public",
+    "resources": "resources"
+  },
+  "autoloads": {
+    "App": "./app"
+  }
+}
