@@ -16,7 +16,8 @@
   "providers": [
     "@adonisjs/core",
     "@adonisjs/lucid",
-    "@adonisjs/view"
+    "@adonisjs/view",
+    "@adonisjs/auth"
   ],
   "aceProviders": [],
   "testProviders": [],
