@@ -40,6 +40,6 @@ Server.middleware.register([
 |
 */
 Server.middleware.registerNamed({
-  auth: () => import('@adonisjs/auth/build/middleware/AuthMiddleware'),
+  auth: () => import('@ioc:Adonis/Addons/Auth'),
   role: () => import('App/Middleware/RoleDetector'),
 })
